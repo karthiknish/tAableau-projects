@@ -1,9 +1,15 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      All the Tableau Projects below <br />
+      <h1> All the Tableau Projects below</h1> <br />
       <Link to="/covid19"> Covid 19</Link>
+      <br />
+      <Link to="/traffic">Traffic Congestion across Europe</Link>
+      <br />
+      <Link to="/fuelprice">Fuel Price Variation</Link>
+      <br />
+      <Link to="/airport">Airport Data</Link>
     </div>
   );
 }
